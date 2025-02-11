@@ -47,4 +47,8 @@
     --z-fixed: 100;
  }
 
+ /* BASE */
+ *,::before, ::after{
+    box-sizing: border-box;
+ }
  
