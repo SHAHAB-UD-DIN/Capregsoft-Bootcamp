@@ -186,3 +186,32 @@
 .show{
    right: 0;
 }
+.home{
+   height: calc(100vh - 3rem);
+   row-gap: 1rem;
+}
+.home__data{
+   align-self: var(--big-font-size);
+   margin-bottom: var(--mb-5);
+}
+.home__title-color{
+   color: var(--first-color);
+}
+.home__social{
+   display: flex;
+   flex-direction: column;
+}
+.home__social-icon{
+   font-size: 1.5rem;
+   color: var(--second-color);
+   margin-bottom: var(--mb-2);
+}
+.home__ social-icon:hover{
+   color: var(--first-color);
+}
+.home__img{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 295px;
+}
