@@ -56,4 +56,11 @@
     scroll-behavior: smooth;
  }
 
+ body{
+    margin: ver(--header-height);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--second-color);
+ }
+
  
