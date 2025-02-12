@@ -61,7 +61,7 @@
  }
 
  body{
-    margin: ver(--header-height);
+    margin: var(--header-height);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
