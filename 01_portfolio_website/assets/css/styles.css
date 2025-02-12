@@ -56,31 +56,31 @@
     box-sizing: border-box;
  }
 
- html{
+html{
     scroll-behavior: smooth;
  }
 
- body{
+body{
     margin: var(--header-height);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
  }
 
- h1,h2,p{
+h1,h2,p{
     margin: 0;
- }
+}
 
- ul{
+ul{
     margin: 0;
     padding: 0;
     list-style: none;
  }
- a{
+a{
     text-decoration: none;
  }
 
- img{
+img{
     max-width: 100%;
     height: auto;
     display: block;
