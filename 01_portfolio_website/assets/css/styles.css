@@ -206,7 +206,7 @@
    color: var(--second-color);
    margin-bottom: var(--mb-2);
 }
-.home__ social-icon:hover{
+.home__social-icon:hover{
    color: var(--first-color);
 }
 .home__img{
@@ -214,4 +214,15 @@
    right: 0;
    bottom: 0;
    width: 295px;
+}
+.button{
+   display: inline-block;
+   background-color: var(--first-color);
+   color: #fff;
+   padding: .75rem 2.5rem;
+   font-weight: var(--font-semi);
+   border-radius: .5rem;
+}
+.button:hover{
+   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
