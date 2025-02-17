@@ -27,9 +27,6 @@ export default function Menu() {
           <Link href={"#"}>About me</Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href={"#"}>Services</Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
           <Link href={"#"}>My Work</Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
