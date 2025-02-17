@@ -2,8 +2,8 @@
 
 export default function Navbar() {
     return (
-        <header>
-            my navabar
+        <header className="grid grid-cols-[auto,auto]">
+        
         </header>
     )
 }
