@@ -7,11 +7,11 @@ import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/r
 export default function Home() {
   return (
     <>
-    <div className="items-center mt-10">
+    <div className="items-center mt-20">
 
       <div className="justify-items-center">
         <Image src="/image.png" alt="Profile" width={110} height={110} className="" />
-        <h1 className="mt-3">Hi! I'm Shahab Ud Din </h1>
+        <h1 className="mt-3">Hi! I'm Shahab Ud Din 👋</h1>
       </div>
 
       <div className="text-center">
