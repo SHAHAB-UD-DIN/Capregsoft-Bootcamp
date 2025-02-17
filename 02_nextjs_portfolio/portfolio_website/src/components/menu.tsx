@@ -20,16 +20,16 @@ export default function Menu() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
+        <NavigationMenuItem className="p-2">
           <Link href={"#"}>Home</Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <NavigationMenuItem className="p-2">
           <Link href={"#"}>About me</Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem className="p-2">
           <Link href={"#"}>My Work</Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
+        </NavigationMenuItem> */}
+        <NavigationMenuItem className="p-2">
           <Link href={"#"}>Contact me</Link>
         </NavigationMenuItem>
       </NavigationMenuList>
