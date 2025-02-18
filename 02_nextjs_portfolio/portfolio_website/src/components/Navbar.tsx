@@ -2,6 +2,7 @@ import Menu from "./Menu"
 import { ButtonDemo } from "./ButtonDemo"
 import  DarkMode  from "./DarkMode"
 import { OpenSheet } from "./OpenSheet"
+import { Bold } from "lucide-react"
 
 
 export default function Navbar() {
@@ -9,7 +10,7 @@ export default function Navbar() {
         <header className="grid grid-cols-[auto,auto] md:grid-cols-[auto,auto,auto] justify-between items-center w-screen px-3 py-1 border-b ">
             <div className="flex justify-center items-center gap-2">
                 <OpenSheet />
-                icon
+                <h1 className="font-semibold">SHAHAB <span className="text-red-500 font-extrabold">.</span></h1>
             </div>
 
             <div className="hidden md:flex justify-center items-centre">
