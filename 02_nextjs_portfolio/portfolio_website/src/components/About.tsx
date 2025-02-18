@@ -15,9 +15,11 @@ export default function About(){
                 </div>
             </div>
 
-            <div>
-                <p>
-                    
+            <div className="flex items-center even:flex-row-reverse even:text-right">
+                <p >
+                I am Shahab Ud Din, Frontend Developer Starting my career at Capresoft, I’ve focused on developing 
+                responsive web applications. My expertise lies in merging modern frontend technologies
+                 with intelligent automation to enhance user experience and streamline processes.
                 </p>
             </div>
 
