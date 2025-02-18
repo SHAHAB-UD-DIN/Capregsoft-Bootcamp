@@ -7,7 +7,7 @@ import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/r
 export default function HeroSection() {
     return (
       <>
-      <div className="items-center mt-20 mb-20">
+      <div className="items-center mt-20">
   
         <div className="justify-items-center">
           <Image src="/image.png" alt="Profile" width={110} height={110} className="" />
@@ -36,7 +36,7 @@ export default function HeroSection() {
           my resume
           <Download />
         </Button>
-  
+
         </div>
   
       </div>
