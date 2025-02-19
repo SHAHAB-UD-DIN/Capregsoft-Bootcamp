@@ -16,9 +16,8 @@ export default function About(){
 
         <div className="bg-slate-100 max-w-2xl mx-auto mt-5 p-3 rounded-xl">
             <div className="">
-                <h1 className="font-semibold">I am Shahab Ud Din, Frontend Developer</h1>
                 <p className="text-wrap">
-                Starting my career at Capresoft, I’ve focused on developing 
+                I am Shahab Ud Din, Frontend Developer Starting my career at Capresoft, I’ve focused on developing 
                 responsive web applications. My expertise lies in merging modern frontend technologies
                  with intelligent automation to enhance user experience and streamline processes.
                 </p>
