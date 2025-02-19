@@ -18,7 +18,7 @@ export default function Navbar() {
             </div>
             
             <div className="flex justify-self-start items-center gap-x-2">
-                <DarkMode />
+                {/* <DarkMode /> */}
                 <ButtonDemo />
             </div>
 
