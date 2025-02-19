@@ -21,13 +21,13 @@ export function OpenSheet() {
       <SheetContent side={"left"} className="w-46 sm:w-64">
         <div className="flex flex-col gray-y-4">
         <Button variant={"ghost"} size={"sm"}>
-            <Link href={"#"} className="text-lg font-medium">Home</Link>
+            <Link href={"/"} className="text-lg font-medium">Home</Link>
         </Button>
         <Button variant={"ghost"} size={"sm"}>
-            <Link href={"#"} className="text-lg font-medium">About me</Link>
+            <Link href={"./about"} className="text-lg font-medium">About me</Link>
         </Button>
         <Button variant={"ghost"} size={"sm"}>
-            <Link href={"#"} className="text-lg font-medium">Contact me</Link>
+            <Link href={"./contact"} className="text-lg font-medium">Contact me</Link>
         </Button>
         </div>
       </SheetContent>
